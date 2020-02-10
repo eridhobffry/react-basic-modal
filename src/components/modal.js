@@ -1,7 +1,7 @@
 import React from "react";
 import { BackgroundModal, Overlay, Modal } from "../styled/styled_modal";
 
-const Modal = ({ isModalOpen, closeModal, children }) => {
+const ModalApp = ({ isModalOpen, closeModal, children }) => {
   return (
     <BackgroundModal open={isModalOpen}>
       <Overlay onClick={closeModal} />
@@ -11,4 +11,4 @@ const Modal = ({ isModalOpen, closeModal, children }) => {
   );
 };
 
-export default Modal;
+export default ModalApp;
